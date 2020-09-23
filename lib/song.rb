@@ -4,7 +4,8 @@ class Song
     @@count += 1 
   end
   
-  def self
+  def self.count
+    @@count + 1
   
   def song_name=(name)
     @song_name = name
