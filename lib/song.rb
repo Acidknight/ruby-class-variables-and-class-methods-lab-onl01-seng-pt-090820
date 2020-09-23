@@ -22,4 +22,5 @@ class Song
   end
   def song_name=(name)
     @song_name
+  end
 end
